@@ -267,6 +267,8 @@ int a = 10;
 int a;
 String a = "10";
 String a;
+String a = null; (null is a keyword here, it means String a has nothing.)
+String a = "null"; ("null" is a String/word here.)
 double a = 10d;
 char sathya = 'A';
 boolean Boolean = true;
@@ -316,6 +318,28 @@ Types of variables
 	static int a = 10;
 	static String sathya = "10";
 	
+	ClassA (TalukOffice) {
+
+static int a = 10;
+//a = receptionist;
+
+method1() {
+
+print (a);
+
+
+}
+
+}
+
+
+ClassB (Govt hospital) {
+
+method2() {
+print (ClassA.a);
+//print (TalukOffice.receptionist)
+}
+	
 &&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&
 	
 Access Modifier
@@ -325,6 +349,7 @@ Access Modifier
 	3) protected
 	4) public 
 	
+	Syntax = accessModifier dataType variableName/variable = variableValue
 	int a = 10; - default (no need to mention "default" word
 	private int a = 10;
 	protected int a = 10;
@@ -378,7 +403,7 @@ JDK - Java Developement kit
 * Used to develop and execute the codes
 * Dev tools + debugger + compiler + java doc
 
-
+**************************************************************************
 				
 				
 				
