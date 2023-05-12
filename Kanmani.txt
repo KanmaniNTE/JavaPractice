@@ -620,17 +620,31 @@ Outside class
 	2. calling static method from static method - using className
 	3. calling non-static method from non-static method - Creating Object
 	4. calling non-static method from static method - Creating Object
+	
+**********************************************************************
+DAY 7(12/05/2023)
 
 Object creation - to call non-static methods
 
-Within class only we have both static and non-static member. 
-
-1) We create object only for class.
-2) In order to access non static members of a class, we create object and access the methods and variables
-
-Objection definition - Whenever we create an Object for a class, whatever non-static members(methods and variables) present in that class 
-				will be copied and stored in heap memory. We call non-static memebers through Object creation only.
-				
+	* Java is a Object Oriented Programming language.
+	* But its not 100% OOPs language.
+	* Almost everything in Java is based on Object only
+	* Super most class of Java is Object class
+	* Whatever class we create, it always follows Object class by default. 
+	* Object class also, contains methods and variables 
+	* Whenever we want to use non static variables/methods, we need to create object for the
+		respective class.
+	* We call it as Object intantiation or Object creation
+	* We create object only for classes
+	* Syntax for object creation
+		ReferenceClassName ObjectVariableName = new ConstructorOfClassForWhichWewantToCreateObject();
+		ClassA obj = new ClassA();
+	* For a single class, we can create multiple objects (either within class or outside class)
+	* DEFINITION
+		* Whenever we create Object for a class, whatever non-static members present in that class
+			will be copied and stored in heap memory
+&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&		
+			
 What is heap memory? 
 
 Memory Management
