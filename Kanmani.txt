@@ -643,7 +643,9 @@ Object creation - to call non-static methods
 	* DEFINITION
 		* Whenever we create Object for a class, whatever non-static members present in that class
 			will be copied and stored in heap memory
-&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&		
+
+*************************************************************************	
+DAY 8(13/05/2023)
 			
 What is heap memory? 
 
@@ -721,7 +723,7 @@ a = new10;
 Immutable concept 
 * It happens with String literals
 
-
+&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&
 
 Data types as variables 
 Variables in Java
@@ -731,6 +733,23 @@ Based on where we use our data types or variable names, we categories variables 
 1. Local variable
 2. Class level or instance variable 
 3. static variable
+
+&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&
+
+Data type as a parameter and return type
+Variable as a parameter
+
+Methods in Java
+1) method without return type
+2) method with return type
+3) static method
+4) non static method
+5) parameterized method
+6) Non parameterized method
+
+
+
+
 
 
 
