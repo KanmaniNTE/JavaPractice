@@ -2,14 +2,14 @@ package basicsOfJava;
 
 public class VariablesInJava {
 	
-	int b = 10; //classLevel variable or instance variable;
+	int b = 10; //classLevel variable or instance variable or non-static variable;
 	
 	static int c = 20; // static variable
 	
 //	final int d;
 
 	public static void main(String[] args) {
-		int a = 10; // local varibale
+		int a = 10; // local variable
 		VariablesInJava ObName = new VariablesInJava(); //local variable
 		
 //		static int d = 10;
@@ -22,7 +22,19 @@ public class VariablesInJava {
 		
 		int b = 20;
 		
+		int c = 30;
+		
 		System.out.println(b);
+		
+		System.out.println(c);
+		
+		System.out.println(VariablesInJava.c);
+		
+//		System.out.println(this.c);
+		
+//		method2();
+		
+		ObName.method1();
 		
 		method2();
 	}
@@ -40,7 +52,6 @@ public class VariablesInJava {
 		
 		System.out.println(c);
 		
-		method2();
 	}
 	
 	public static void method2() {

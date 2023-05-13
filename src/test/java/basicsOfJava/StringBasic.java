@@ -21,6 +21,8 @@ public class StringBasic {
 	
 	String str = "Sathya";
 	String str2 = "Sathya"+"Moorthi";
+	String str6 = str + "Moorthi";
+	String str7 = new String("Sathya");
 	
 	String str1 = "* if my String is "+"Sathya"+", length - 6, index starts with 0. Then last index is 5 or I can say length -1;";
 	String str3 = "* if my String is \"Sathya\", length - 6, index starts with 0. Then last index is 5 or I can say length -1;";

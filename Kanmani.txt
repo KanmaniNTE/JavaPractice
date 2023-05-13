@@ -653,6 +653,12 @@ Heap memory
 Stack memory
 SCP (String Constant Pool - A part of heap memory)
 
+We have seen
+	Access modifier 
+	Datatype/variables basic
+	Methods 
+	Object
+
 ClassA obj1 = new ClassA();
 
 ClassA - Class Name
