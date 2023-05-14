@@ -2,10 +2,10 @@
 // * So, whenever we have a method with return type, it does some work and give us something back
 //		These methods or variable's visibility ends once the holding method get executed. In order to use the variable's 
 //		value outside the method, we have return type concepts.
-// * Whenever we use a return type in a method, store the method return value in a variable and use that variable wherever we want to use the method.
+// * Whenever we use a return type in a method, store method's return value in a variable and use that variable wherever we want to use the method.
 // * Whenever there is return type mentioned, at the end of method, we need to use "return" keyword, after that we should not be writing anything
 //   		* means, return should be always at end of the methods 
-// * Return type can be anything such as Interface, Class, primitive and non-premitive data type such String and Array, Collections and Object too
+// * Return type can be anything such as Interface, Class, primitive and non-premitive data type such as String and Array, Collections and Object too
 // * Either we can directly use the method in some other method or we assign method's return type to respective variable
 // * Return keyword can have exact return type or its variable name
 //	* Parameters can be methods with return type too
@@ -17,13 +17,20 @@ public class ReturnDefinition {
 	static String zz;
 
 	public static void main(String[] args) throws InterruptedException {
+		System.out.println(zz);
 		ReturnDefinition test = new ReturnDefinition();
 		zz = test.methodWithReturnType();
+		System.out.println(zz);
 		test.method1();
 		test.method2();
-//		Object testObject = new Object(); 
-		Object testObject = test.methodWithReturnTypeAsObject(); // this line is nothing but about line;
-		testObject.wait();
+		
+		int aa = test.method3(100);
+		System.out.println(aa);
+		
+		int bb = test.method4(100);
+		System.out.println(bb);
+		
+		System.out.println(test.method4(100));
 
 	}
 
@@ -31,12 +38,13 @@ public class ReturnDefinition {
 		String test = "Sathya";
 		System.out.println(test);
 		return test;
-//		return "Sathya";
+//		return "Hello";
 //		System.out.println("Abc");
 	}
 
 	public void method1() {
-//		String xx = methodWithReturnType();
+		String xx = methodWithReturnType();
+		System.out.println(xx);
 		System.out.println(zz);
 //		doing some other work in this method by getting the value from the above method
 //		method1 just want the value from "method with return type method". 

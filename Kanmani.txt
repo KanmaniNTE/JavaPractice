@@ -747,9 +747,17 @@ Methods in Java
 5) parameterized method
 6) Non parameterized method
 
+**************************************************
 
+DAY 9(14/05/2023) - Class1
 
+Return type in detail
 
+DAY 9(14/05/2023) - Class2
+
+Main method
+
+**************************************************
 
 
 
