@@ -753,9 +753,28 @@ DAY 9(14/05/2023) - Class1
 
 Return type in detail
 
+
+&&&&&&&&&&&&&&&&&&&&&&&&&&&&&
+
+
 DAY 9(14/05/2023) - Class2
 
-Main method
+Methods starts with { and ends with }
+
+Method with body or concrete method 
+Ex: public void method1() {
+
+}
+
+Methods can be without body or bodyless method or abstract method
+Ex: public void method1();
+
+
+Interface in Java
+	* Creating interface within interface
+	* creating class within class
+
+Abstract class in details
 
 **************************************************
 
