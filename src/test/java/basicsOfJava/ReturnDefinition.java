@@ -9,7 +9,9 @@
 // * Either we can directly use the method in some other method or we assign method's return type to respective variable
 // * Return keyword can have exact return type or its variable name
 //	* Parameters can be methods with return type too
-
+// * If a method have return type, we can consider that method as that data type itself.
+//	* means whatever calculation or manipulation we do on that data type, we can do it on the method
+	
 package basicsOfJava;
 
 public class ReturnDefinition {

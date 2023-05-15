@@ -1,5 +1,8 @@
 package basicsOfJava;
 
+
+// Class can be parameter too 
+
 public class X1VariableAsParameter {
 
 	public static void main(String[] args) {
@@ -87,3 +90,56 @@ public class X1VariableAsParameter {
 		System.out.println("Buy "+soapAmount+" rupees "+soapName+" soap and "+shampooAmount+ " rupees "+shampooName+" shampoo");
 	}
 }
+
+/*
+accessModifier static/non-static returnType methodName() {}
+
+List<WebElement> findElements(By by);
+
+default non-static returnType methodName(parameterized);
+
+
+public void buySoap(int amount) {
+
+}
+
+
+public class Test {
+
+public int takeMoneyFromATM(int amount) {
+
+}
+
+public void buyThings(SuperMarket obj) {
+
+}
+
+
+main() {
+
+Test test = new Test();
+test.buyThings(SuperMarket.buyRice(10));
+
+test.buyThings(SuperMarket.buyFruits(200));
+
+
+}
+
+
+public class SuperMarket {
+
+public static void buyRice(int quantity) {
+
+}
+
+public static void buyFruits(int amount) {
+
+}
+
+public static void buyPerfume(String perfumeName) {
+
+}
+
+}
+
+*/

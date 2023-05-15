@@ -16,6 +16,9 @@ package interfaceInJava;
 //Interface let us to have methods with body but those methods should be either static or default method
 //We can have static method in interface and we can call it in a following class by using interface name.
 //We can access default method in implemented class by using object
+//We create object for a class using interface as a reference 
+//We can give an interface as a return type
+//We can create a interface within a interface
 
 public interface LearnInterface {
 
@@ -60,6 +63,7 @@ public interface LearnInterface {
 	}
 	
 	
-	
+//	WebDriver
+//	ArrayList
 
 }

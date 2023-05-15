@@ -770,9 +770,68 @@ Methods can be without body or bodyless method or abstract method
 Ex: public void method1();
 
 
+
 Interface in Java
 	* Creating interface within interface
 	* creating class within class
+	
+*****************************************************
+
+DAY 10(15/05/2023)
+
+* Interface examples -> WebDriver, WebElement, List
+* Interface as a return type --> List<WebElement> findElements(By by))
+* Class as a parameter  --> findElement(By by) ;
+
+driver.findElement(By.id("text")).click();
+
+WebElement.click();
+
+
+driver.findElement(By.xpath("")).isSelected();
+
+WebElement(Gender checkbox).isSelected();
+
+
+driver.switchTo().window(); //TargetLocator.window();
+driver.switchTo().alert();
+driver.switchTo().frame();
+
+
+
+driver.switchTo().alert().accept();
+
+
+TargetLocator.alert().accept();
+
+Alert.accept();
+
+Alert alert = driver.switchTo().alert();
+alert.accept():
+
+
+TargetLocator var = driver.switchTo();
+Alert alert = var.alert();
+alert.accept();
+
+TargetLocator var = driver.switchTo();
+Alert alert = var.alert();
+String str = alert.getText();
+syso(str); --> No benefits selected
+
+driver.switchTo().alert().getText();
+
+
+driver.switchTo().alert().accept();
+
+
+public int method1() {
+
+}
+
+int variableName = obj.method1();
+
+
 
 Abstract class in details
 
