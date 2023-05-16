@@ -187,7 +187,7 @@ Project
 
 * Class - It does a set of work. It consist of variables and methods. Each work would be done by methods. 
 
-* Methods - It does speicific job. It always written inside a class
+* Methods - It does specific job. It always written inside a class
 
 * Variable - it can have type(Data type) and posses a number or name;
 			variables can have different access - access Modifier
