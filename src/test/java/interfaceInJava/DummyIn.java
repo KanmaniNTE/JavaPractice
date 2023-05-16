@@ -2,7 +2,7 @@ package interfaceInJava;
 
 public interface DummyIn {
 	
-	int c;
+//	int c;
 	
 	static int d = 0;
 	
