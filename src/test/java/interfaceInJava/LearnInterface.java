@@ -64,6 +64,7 @@ public interface LearnInterface {
 	
 	
 //	WebDriver
+	RemoteWebDriver
 //	ArrayList
 
 }
