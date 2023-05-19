@@ -9,6 +9,8 @@ public class ReturnTypeTest {
 		System.out.println("Main Method String ="+a);
 		test.test1();
 		test.test3(10);
+		System.out.println(test.test3(20));
+		System.out.println(test.test4(15));
 	}
 	public String methodWithReturnType() {
 		String test = "Maki";
