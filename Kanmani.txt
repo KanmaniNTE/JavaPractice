@@ -899,14 +899,47 @@ methodName(with or without Parameter) - method signature
 
 OOPs - Polymorphism
 
-Overloading
-Overriding
+One thing available in different format.
 
-main method
+* depends on 
+	1) inheritance
+	2) object creation
+	3) method signature (method name and parameters(with or without))
+
+
+Two polymorphism - Overloading, overriding 
+
+OverLoading 
+* It happens within a class 
+* Method name should be same and parameters should vary
+
+Overriding
+* It happens between two classes (Parent and child class) - Inheritance concept
+* Method name should be same and parameter also should be same
+
+
+********* main method learning *********
 
 ********************************************************************************
 
-DAY 12(18/05/2023)
+DAY 12(19/05/2023)
+
+Constructor
+
+Topics we covered before
+	* Variables
+	* Methods
+	* Static
+	* return type
+	* Object creation
+	* Inheritance
+	* Overload
+	* Override
+	
+Once we see the basic of Constructor, we are going to implement all the above topics on Constructor
+
+**********************************************************************
+
 
 Agile
 
