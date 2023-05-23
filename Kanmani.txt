@@ -938,8 +938,18 @@ Topics we covered before
 	
 Once we see the basic of Constructor, we are going to implement all the above topics on Constructor
 
+
 **********************************************************************
 
+Day 13 (21/05/2023) 
+
+Use of Constructor 
+
+* Short cuts for selecting word, sentence
+* Navigating through a sentence
+
+
+******************************************************************************
 
 Agile
 
