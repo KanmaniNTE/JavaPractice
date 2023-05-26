@@ -990,6 +990,8 @@ super() and this()
 
 *****************************************************************************
 
+Day 15 (26/05/2023)
+
 Agile
 
 
@@ -1093,8 +1095,15 @@ Chennai have fidelity office too.
 Project - Fidelity invesment
 Our project have both Client team persons as well as Capgemini team persons
 
+&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&
 
-		
+Errors and Exceptions 
+
+try catch finally
+
+Throw, Throws, Throwable
+
+************************************************************************
 				
 				
 				
