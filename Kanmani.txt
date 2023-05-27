@@ -1105,7 +1105,94 @@ Throw, Throws, Throwable
 
 ************************************************************************
 				
-				
+Day 16 (27/05/2023)			
+
+Blocks in Java
+
+static block
+
+&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&& 
+
+if condition 
+
+this or that
+
+this 
+
+
+condition only
+
+multiple condition 
+
+if
+
+if 
+if 
+if
+
+if
+else
+
+
+if
+else if 
+else if
+else 
+
+
+==
+>
+<
+!=
+&&
+|| 
+
+
+if(soap available == yes)
+	doing some other work
+	if(soap name == yes)
+		if(soap amount is 10 == yes)
+			buy soap
+
+if(soap available == yes && soap name == yes && soap amount is 10 == yes) 
+	buy soap
+
+
+
+if(condition) {
+line1
+line2
+line3
+}
+
+if(condition) 
+line1
+line2
+line3
+
+
+&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&
+
+for 
+
+for(initiation; condition; increment or decrement) {
+
+}
+
+OR 
+
+for(initiation; condition) {
+
+
+
+increment or decrement;
+}
+
+
+
+
+
+	
 				
 				
 				
