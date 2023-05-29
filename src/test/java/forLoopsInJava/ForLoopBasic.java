@@ -73,18 +73,18 @@ public class ForLoopBasic {
 //
 //		}
 //
-		int i;
-		for (i = 1; i <= 5; i++) {
-			System.out.println(i);
-			i++;
-//			break;
-			if(true) {
-//				some content
-				break;
-			}
-//			System.out.println("Hello");
-		}
-		System.out.println(i);
+//		int i;
+//		for (i = 1; i <= 5; i++) {
+//			System.out.println(i);
+//			i++;
+////			break;
+//			if(true) {
+////				some content
+//				break;
+//			}
+////			System.out.println("Hello");
+//		}
+//		System.out.println(i);
 //
 //		s++ is nothing but s = s+1;
 //		s+2 is nothing but s = s+2;
@@ -99,12 +99,14 @@ public class ForLoopBasic {
 //		}
 //
 //		for (int a = 1; a <= 10; a++) {
-//			if (a > 5) {
-//				break;
+//			if (a < 5) {
 //				System.out.println("Hello");
+//				break;
+////				System.out.println("Hello");
 //			}
-//			break;
 //			System.out.println(a + "&&&&&&");
+//			break;
+////			System.out.println(a + "&&&&&&");
 //		}
 //
 //		for (int i = 1; i <= 5; i++) {
@@ -137,13 +139,14 @@ public class ForLoopBasic {
 //		}
 //	}
 //
-//		for (int i = 1; i <= 5; i++) {
-//		System.out.println(i);
-//		for (int j = 1; j <= 5; j++) {
-//			System.out.println("*******"+j);
-//			continue;
-//		}
-//	}
+		for (int i = 1; i <= 5; i++) {
+		System.out.println(i);
+		for (int j = 1; j <= 5; j++) {
+			System.out.println("*******"+j);
+			continue;
+//			System.out.println("Hello");
+		}
+	}
 //
 //		for (int i = 1; i <= 5; i++) {
 //			for (int j = 1; j <= 5; j++) {
@@ -267,3 +270,206 @@ public class ForLoopBasic {
 //	}
 
 }
+
+
+
+
+/*
+1 1 2 3
+2 1 2 3 
+3 1 2 3
+4 1 2 3
+5 1 2 3 
+
+1
+2
+3
+4
+5
+
+123123123
+
+123
+123
+123
+
+1 2 3 
+1 2 3 
+1 2 3
+
+
+1 
+2
+3
+4
+5
+6
+7
+8
+
+
+for(condition) {
+
+do some work;
+
+do small work1
+do small work2 
+do small work3
+}
+
+for(condition) {
+
+	for(condition) {
+		small work 400 times
+		break;
+
+	}
+}
+
+
+
+12345
+12345
+12345
+12345
+
+
+for(int i =1; i<=4; i++){
+  int a = 10;
+    for (int j = 1; j<=60; j++){
+int b = 20;
+	if(j<=3) {
+sysout(a);
+    System.out.print(j);
+break;
+}	
+    
+    }
+sysout(b);
+ Sysem.out.println()
+}
+
+12345
+12345
+12345
+
+123
+123
+123
+123
+
+
+1
+1
+
+
+1111
+2222
+3333
+4444
+
+
+for(int i =0; i<4; i++){
+    for (int j = 1; j<=4; j++){
+    System.out.print(i);
+    
+    }
+ Sysem.out.println()
+}
+
+1111
+2222
+
+1
+12
+123
+1234
+12345
+
+for(int i =1; i<=5; i++){
+    for (int j = 1; j<=5; j++){
+	if(j==i) {
+    System.out.print(*);
+	break;
+    }
+else 
+	System.out.print(" ");
+}
+ Sysem.out.println()
+
+}
+
+12
+12
+12
+12
+12
+
+
+1
+ 2
+  3
+   4
+    5
+
+
+*
+**
+***
+****
+*****
+
+
+1
+1
+1
+1
+1
+
+
+for(condition)
+
+sysout(1)
+syso new line
+
+}
+
+for(condition)
+
+	for(condotion)
+	syso(j)
+continue;
+
+}
+
+
+
+12345
+12345
+12345
+
+12345
+
+
+for(condition) {
+
+if(i == 4) {
+println();
+	continue;
+}
+	for(condition) {
+	sysout(j)
+
+}
+println();
+}
+
+
+12345
+12
+12345
+12345
+12345
+
+
+*/
