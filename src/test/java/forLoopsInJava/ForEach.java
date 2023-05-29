@@ -3,6 +3,8 @@ package forLoopsInJava;
 import com.sun.tools.javac.code.Attribute.Array;
 
 public class ForEach {
+	
+//	Should be visited after array
 
 	public static void main(String[] args) {
 

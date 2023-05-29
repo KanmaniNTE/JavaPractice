@@ -1196,8 +1196,27 @@ for loop
 
 &&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&
 
-a
+debug
 
+getter and setter 
+
+switch
+
+Scanner
+
+Thread
+
+Different ways to provide inputs
+
+1. hard code input value
+2. file reading (text file, prop file, excel, pdf)
+3. Directly get the value from the application itself then use it as a input
+4. Take input from DB.. RDBMS, DBMS
+5. through scanner
+
+****************************************************************************
+
+array
 	
 				
 				
