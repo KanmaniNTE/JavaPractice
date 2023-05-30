@@ -1215,8 +1215,13 @@ Different ways to provide inputs
 5. through scanner
 
 ****************************************************************************
+Day 17 (29/05/2023)
 
-array
+array basics
+
+for each loop
+
+
 	
 				
 				
