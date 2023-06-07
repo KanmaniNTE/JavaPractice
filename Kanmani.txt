@@ -1225,11 +1225,20 @@ for each loop
 
 Day 18, 19, 20(06/07/2023)
 
-array programming practice 
+array programming practice 18 and 19th
 
 Arrays class
-				
-				
+			
+Multi-Dimentional array
+
+Jagged array
+
+&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&
+
+String class demo
+
+	
+	
 				
 				
 				

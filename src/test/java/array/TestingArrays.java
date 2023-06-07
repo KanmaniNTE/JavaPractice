@@ -51,7 +51,7 @@ public class TestingArrays {
 		
 		System.out.println("********compare*************");
 		System.out.println(Arrays.compare(ar3, ar2));
-		
+		System.out.println(Arrays.compare(ar1, ar2));
 		System.out.println(Arrays.compare(ar4, ar5));
 		
 		System.out.println("********copyOf*************");
@@ -66,7 +66,7 @@ public class TestingArrays {
 		
 		System.out.println("********fill*************");
 		Arrays.fill(ar1, 100);
-//		obj.printIntArrayUsingForEach(ar1);
+		obj.printIntArrayUsingForEach(ar1);
 		
 		System.out.println("********mismatch*************");
 		System.out.println(Arrays.mismatch(ar1, ar2));
@@ -80,6 +80,7 @@ public class TestingArrays {
 	public void reverseAnArray() {
 
 		int ar[] = {10, 50, 30, 20, 40};
+//		50,  40, 30, 20, 10
 		
 		for(int i = ar.length-1; i>=0; i--) {
 			System.out.println(ar[i]);
