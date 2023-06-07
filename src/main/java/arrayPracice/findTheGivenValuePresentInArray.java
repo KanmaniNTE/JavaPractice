@@ -2,7 +2,7 @@ package arrayPracice;
 
 public class findTheGivenValuePresentInArray {
 	int c[] = { 10, 20, 30, 40, 50, 60 };
-	int b = 70;
+	int b = 60;
 	boolean givenValue= false;
 
 	public static void main(String[] args) {
