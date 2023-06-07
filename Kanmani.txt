@@ -1221,8 +1221,13 @@ array basics
 
 for each loop
 
+*********************************************************************
 
-	
+Day 18, 19, 20(06/07/2023)
+
+array programming practice 
+
+Arrays class
 				
 				
 				
