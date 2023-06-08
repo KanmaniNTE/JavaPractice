@@ -1237,7 +1237,23 @@ Jagged array
 
 String class demo
 
-	
+******************************************************************************
+Day 21
+String practice and explanation
+
+
+""
+"  "
+"a"
+"4343"
+"Sathya"
+"fsjkf lkdsdk ld;l";
+
+==
+
+check given word is presentt in the sentence
+
+String immutable
 	
 				
 				
