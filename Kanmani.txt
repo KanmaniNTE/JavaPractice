@@ -1238,7 +1238,7 @@ Jagged array
 String class demo
 
 ******************************************************************************
-Day 21
+Day 21 (06/08/2023)
 String practice and explanation
 
 
@@ -1255,6 +1255,18 @@ check given word is presentt in the sentence
 
 String immutable
 	
+********************************************************************************			
 				
-				
+Day 22 (06/09/2023)
+
+String buffer 
+String builder 
+
+Wrapper classes
+
+
+&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&
+
+Collection in Java
+
 				
