@@ -12,7 +12,7 @@ public class PracticeTrim {
 		String word2 = "         Makinthan    ***    ";
 		String sentance = "Java is an Object Oriented Programming Language";
 
-		System.out.println(word.trim());
+		System.out.println(word.trim().toUpperCase().isEmpty());
 		System.out.println(word1.trim());
 		System.out.println(sentance.trim());
 		System.out.println(word2.trim());

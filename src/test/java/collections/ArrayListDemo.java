@@ -131,7 +131,7 @@ public class ArrayListDemo {
 		System.out.println(a.size());
 		
 		for(int i = 0; i<a.size();i++) {
-			System.out.println(a.get(i));
+			System.out.println(a. get(i));
 		}
 		
 		Iterator<Integer> ite = a.iterator();

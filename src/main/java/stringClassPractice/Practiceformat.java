@@ -14,7 +14,7 @@ public class Practiceformat {
 //Returns a formatted string using the specified locale, format string, and arguments
 		System.out.println(empty.format("Mak", "Kanu"));
 		System.out.println(blank.format(word2, args));
-		System.out.println(onechar.format(word, word2));
+		System.out.println(String.format(word, word2));
 		System.out.println(number.format(word1, args));
 		System.out.println(number);
 		
