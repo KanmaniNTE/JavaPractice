@@ -1277,4 +1277,19 @@ Day 23 (06/10/2023)
 ArrayList
 HashSet
 
+*******************************************************
 
+Day 24 (06/13/2023)
+
+ArrayList method practice and discussion
+
+Home work
+	* Explain each methods in collection 
+	* How do you print a HashSet in decending order
+	* Get to know about Collections class 
+	* How do you convert Integer into int and vice versa
+	* What is upcasting and downcasting
+	
+*********************************************************************
+
+	

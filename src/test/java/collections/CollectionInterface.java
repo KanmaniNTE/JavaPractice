@@ -158,7 +158,7 @@ package collections;
 
 import java.util.Collection;
 
-public class CollectionInterfaceClass  {
+public class CollectionInterface  {
 	
 //	ArrayList
 	
