@@ -11,6 +11,7 @@ public class StringBuilderAndBuffer {
 		StringBuilder builder1 = new StringBuilder("sathya");
 		
 		System.out.println(builder.compareTo(builder1));
+		System.out.println(builder1.compareTo(builder));
 		
 		String str = "Kanmani";
 		
