@@ -20,6 +20,7 @@ public class HashMapClass {
 //
 //	 * keyset() - will return set of keys. Return type - Set 
 //	 * values() - Will return Collection of values. Return type - Collection 
+//	 * entrySet() - Will return Set of Entry(K, V)
 //	 * For iterating we cannot use for loop, but we can use other types
 //
 //	 * forEach(), replaceAll() and clone() methods are overridden in HashMap 
@@ -42,10 +43,13 @@ public class HashMapClass {
 		System.out.println("******* Iterating key and values using foreach loop*****");
 		Map<String, Integer> marks10 = new HashMap<String, Integer>();
 		marks10.putAll(marks);
-		for (Map.Entry<String, Integer> entry1 : marks10.entrySet()) {
-			System.out.println(entry1.getKey());
-			System.out.println(entry1.getValue());
-		}		
+//		for (Map.Entry<String, Integer> entry1 : marks10.entrySet()) {
+//			System.out.println(entry1.getKey());
+//			System.out.println(entry1.getValue());
+//		}	
+		
+		HashMapClass obj = new HashMapClass();
+		obj.mapPractice();
 
 	}
 
@@ -67,10 +71,13 @@ public class HashMapClass {
 		marks.put("English", 75); // does not allow duplicate key
 
 		System.out.println(marks);
+//		null.
 
+		System.out.println("Practice keySet() method************");
 		Set<String> keys = marks.keySet();
 		for (String eachKey : keys) {
 			System.out.println(eachKey);
+//			if (eachKey.equals("Bio")) {
 			if (eachKey != null && eachKey.equals("Bio")) {
 				System.out.println("Key has Bio");
 			}
@@ -80,7 +87,11 @@ public class HashMapClass {
 		for (Integer eachvalue : value) {
 			System.out.println(eachvalue);
 		}
-
+		
+		
+//		Set<Map.Entry <String, Integer>>  keyValues = marks.entrySet();
+//		keyValues.
+		
 //		Set <Integer> value1 = (Set<Integer>) marks.values();
 //		for(Integer eachvalue :value1) {
 //			System.out.println(eachvalue);
@@ -131,8 +142,12 @@ public class HashMapClass {
 		}
 
 		System.out.println("********entrySet() method ******");
-//		Set<Entry<String, Integer>>  entrySet = marks.entrySet();
-//		Iterator<Entry<String, Integer>>  iterateEntrySet = entrySet.iterator();
+		Set<Entry<String, Integer>>  entrySet = marks.entrySet();
+		Iterator<Entry<String, Integer>>  iterateEntrySet = entrySet.iterator();
+		while (iterateEntrySet.hasNext()) {
+			System.out.println(iterateEntrySet.next());
+		}
+//		Above is written as below
 		Iterator<Map.Entry<String, Integer>> entrySetIterator = marks.entrySet().iterator();
 		while (entrySetIterator.hasNext()) {
 			System.out.println(entrySetIterator.next());
@@ -141,9 +156,9 @@ public class HashMapClass {
 		System.out.println("********entrySet() method using getKey() and getValue()******");
 		Iterator<Map.Entry<String, Integer>> entrySetIterator1 = marks.entrySet().iterator();
 		while (entrySetIterator1.hasNext()) {
-			System.out.println(entrySetIterator1.next().getKey());
-			System.out.println(entrySetIterator1.next().getValue());
-			System.out.println(entrySetIterator1.next().getKey() + " : " + entrySetIterator1.next().getValue());
+//			System.out.println(entrySetIterator1.next().getKey());
+//			System.out.println(entrySetIterator1.next().getValue());
+//			System.out.println(entrySetIterator1.next().getKey() + " : " + entrySetIterator1.next().getValue());
 			Map.Entry<String, Integer> entry = entrySetIterator1.next();
 			System.out.println("Key : " + entry.getKey() + ", " + " Value : " + entry.getValue());
 		}

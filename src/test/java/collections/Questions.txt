@@ -26,7 +26,7 @@ Questions link - https://www.java67.com/2015/06/20-java-arraylist-interview-ques
 	9) How do you convert an ArrayList to array and vice versa?
 	 	ArrayList to Array -> by using toArray() method
 	 	array to ArrayList -> By using asList() method
-	10)	How do you convert Set to ArrayList?
+	10)	How do you convert Set to ArrayList and vice versa
 		By Using ArrayList Constructor() with Set Collection as parameter
 			Set<String> AS = new HashSet<String>(10); 
 			ArrayList<String> AS1 = new ArrayList<String>(AS);
@@ -57,7 +57,21 @@ Questions link - https://www.java67.com/2015/06/20-java-arraylist-interview-ques
     22) How to make ArrayList read-only in Java?
     23) How to sort ArrayList in descending order in Java?
 			By using the Collections.reverseComparator() method.
-	24) 			
+	24) How to convert Object into Integer?
+	25) How to remove duplicates from array
+			a) take int array
+			b) convert each int into Integer
+			c) add those Integer to an ArrayList
+			d) convert the ArrayList into HashSet
+	26) lambda expression
+	27) RegEx - regular expression
+				[a, z]
+				[A, Z]
+				[0, 9]
+				[@, .]
+			test@gmail.com
+			
+				 		
 			
 			
     

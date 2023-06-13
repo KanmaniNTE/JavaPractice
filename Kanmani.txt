@@ -1279,7 +1279,7 @@ HashSet
 
 *******************************************************
 
-Day 24 (06/13/2023)
+Day 24 (06/12/2023)
 
 ArrayList method practice and discussion
 
@@ -1291,5 +1291,12 @@ Home work
 	* What is upcasting and downcasting
 	
 *********************************************************************
+
+Day 25 (06/13/2023)
+
+ArrayList practice 
+Map concept
+Hash map
+
 
 	
