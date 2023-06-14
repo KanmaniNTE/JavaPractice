@@ -1313,5 +1313,168 @@ Similarly
 
 You can create any files, delete any files, read or write file
 
+*********************************************************************
 
+Day 25 (06/14/2023)
 	
+Selenium Basics
+
+Why we need automation
+Benefits
+Different Automation tools and Editor
+Front end development tools and backend application tools
+
+Difference between Web Browser and Web application
+What and all we see in a browser
+What and all we see in a web application (Textbox, checkbox, drop down, radio button, link, text..etc)
+What are the actions we do in an application (click, write, drag and drop, scroll)
+
+Who is WebDriver
+How to open an application using webDriver
+Session ID
+WindowHandle
+WebDriver focus
+
+
+SELENIUM
+
+* Its only for web application automation
+* Selenium is written in many languages such as Java, Python, C#
+
+Who is WebDriver 
+What is WebElement
+
+BASICs for understanding selenium 
+
+* what are the actions we do on a browser
+
+browser open
+url enter
+new tab open
+tab close 
+min 
+max
+entire browser close
+scroll
+zoom
+navigate - back, forward, refresh
+
+With in application what do we do
+
+application launch - url type
+text enter
+button click
+check box click
+radio box click
+drop down
+links click
+Text read/verify
+Tab title
+Mouse hover
+double click
+Right click
+Date choose
+Drag and drop
+File upload
+Verification/Assert 
+page load speed/time(synchronization)
+Keyboard
+pop up
+	alert
+	tab
+	web alert like info screen
+	Desktop window
+frames
+wait
+WebTable
+
+
+Who is tester in Automation? ---- WebDriver(Tester)
+
+Each window has an UNIQUE ID (String) --- Window Handle
+
+Session ID also created when we run WebDriver each time.
+
+Whatever element you see on a web page is called WebElement
+
+What is WebElement
+	* DOM (right click on a page and inspect or F12 or Ctrl+Shift + I)
+	* diff types of tags
+		* html
+		* body
+		* header
+		* div
+		* ul
+		* li
+		* a 
+		* select (drop down)
+		* frame or iframe (small html)
+		* table
+			* tr 
+			* th
+			* td
+
+* attributes
+	whatever key value pair we see inside any tag is called attributes
+
+
+How to find element in a page 
+
+<html>
+
+ancestor(div)
+  parent(div)
+	parent(li)
+		child(ul)
+			child(select)
+		child(ul)
+			child(li)
+			child(li)
+	parent(ul)
+	parent(li)
+ancestro(div)
+
+</html>
+
+ancestor
+parent
+child
+siblings
+following ancestor, parent, child, siblings
+preceding ancestor, parent, child, siblings
+text
+contains(text, 'Sathya')
+
+We find elements in a page using locators 
+
+Locators in selenium - 
+	locator value should not be duplicate. must be unique
+		means, id = "sathya" should be present only once
+
+id 
+	* do not use if it has numbers in it. 
+name
+className
+	* with more spaces 
+tagName
+linkText
+partialLinkText
+CSS selector
+xpath
+
+id, name, className(class) - when these values are unique we can use them directly. When they are not unique, we use either xpath or CSS
+
+findElement(By.id(""));
+findElement(By.name(""));
+findElement(By.class(""));
+findElement(By.linkText("selenium"));
+findElement(By.linkText("Testing Frameworks"));
+findElement(By.linkText("Logging Frameworks"));
+findElement(By.parialLinkText("Frameworks"));
+
+* when id, name, className attributes are present in an element tag but they not unique, then we go to xpath 
+* When id, name, className attributes are not present inside an element's tag, then also we use xpath
+
+****************************************************************************
+
+
