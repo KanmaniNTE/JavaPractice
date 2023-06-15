@@ -1476,5 +1476,77 @@ findElement(By.parialLinkText("Frameworks"));
 * When id, name, className attributes are not present inside an element's tag, then also we use xpath
 
 ****************************************************************************
+Day 25 (06/15/2023)
 
+How to use selenium in Eclipse 
+1. We have add selenium dependency in our project
+ 
 
+Hirarchy 
+* SearchContext Interface (findElement, findElements)
+* WebDriver Interface ( Basic methods for a browser) 
+* RemoteWebDriver Class( all basic methods are implemented here)
+* Classes ChromeDriver, FirefoxDriver, etc..  
+
+SearchContext 
+ 1) WebElement findElement(By by) 
+ 		WebDriver.findElement(By.id(""));
+ 		WebDriver.findElement(By.xpath("//strong[text() =  'ChromeDriver 108.0.5359.22']");
+ 
+ 2) List<WebElement> findElements(By by)
+ 		List<WebElement> allElements = WebDriver.findElements(By.id(""));
+ 		for(WebElement eachElement : allElelments) {
+ 		}
+
+* By class 
+
+* WebElement Interface
+
+What is WebElement 
+	* It is a interface which follows SearchContext (In Java)
+	* Whatever element you see on a web page is called WebElement (For understanding)
+	
+click();
+submit();
+sendKeys();
+clear();
+getTagName();
+getDomAttribute();
+getAttribute();
+isSelected();
+isEnabled();
+getText();
+findElement();
+findElements();
+isDisplayed();
+getLocation();
+getSize();
+getRect();
+getCssValue();
+
+WebDriver 
+get()
+  * In this method only we pass application URL
+currentUrl()
+	* It gives currently focused window's URL. So that we can validate against requirement that, URL is correct 
+close()
+ 	* Closes the currently focused window
+quite()
+	* Closes all the window's opened during the session
+getPageSource()
+	*
+
+@override
+findElement()
+findElements()
+
+getTitle()
+	* Gives the title of the window (tab tile) 
+getWindowHandle()
+	* It gives current window's handle
+	* Its good practice to use getWindowHandle() method, before using getWindowHandles() method
+	* This methods return type is String
+	
+getWindowHandles()
+	* It gives all window's handles opened during that session
+	* This methods return type is Set<String>
