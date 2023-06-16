@@ -30,6 +30,11 @@ public class MainMethod {
 			
 		}
 		
-		WebDriver
+//		WebDriver
+//		RemoteWebDriver
+//		ChromeDriver
+//		FirefoxDriver
+//		EdgeDriver
+		SafariDriver
 
 }
