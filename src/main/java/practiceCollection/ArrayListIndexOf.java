@@ -17,6 +17,7 @@ public class ArrayListIndexOf {
 		list1.add(20);
 		list1.add(30);
 		System.out.println(list);
+	
 		
 		System.out.println(list.indexOf(list1));
 		
