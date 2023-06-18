@@ -1734,3 +1734,28 @@ Why element is not found, because we wrongly identified the element
 https://www.guru99.com/xpath-selenium.html#text
 https://www.guru99.com/locators-in-selenium-ide.html
 
+*******************************************************************************
+
+DAY 27 (06/17/2023)
+
+xpath practice
+
+
+
+*******************************************************************************
+
+DAY 28 (06/18/2023)
+
+xpath practice
+
+How to add selenium dependencies
+
+How to download driver.exe file for chrome
+
+Selenium Basic code
+
+****Home work*****
+
+	*******************************************************************************
+
+
