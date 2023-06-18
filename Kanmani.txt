@@ -1531,7 +1531,7 @@ currentUrl()
 	* It gives currently focused window's URL. So that we can validate against requirement that, URL is correct 
 close()
  	* Closes the currently focused window
-quite()
+quit()
 	* Closes all the window's opened during the session
 getPageSource()
 	*
