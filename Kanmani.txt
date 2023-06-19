@@ -1746,6 +1746,13 @@ xpath practice
 
 DAY 28 (06/18/2023)
 
+
+What is functional level testing and application level testing
+
+We need to include application level testing in our functional level testing to make our testing better
+
+For that, we use TestNG or Junit for validation
+
 xpath practice
 
 How to add selenium dependencies
@@ -1756,6 +1763,15 @@ Selenium Basic code
 
 ****Home work*****
 
-	*******************************************************************************
+*******************************************************************************
 
+DAY 29 (06/19/2023)
 
+Converting the methods into generic methods
+
+SoftAssert and HardAssert
+
+Thread.sleep(5000);
+
+*********************************************************
+DAY 30 (06/20/2023)

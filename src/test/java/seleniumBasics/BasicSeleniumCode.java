@@ -3,6 +3,7 @@ package seleniumBasics;
 import java.time.Duration;
 import java.util.Set;
 
+import org.junit.Assert;
 import org.openqa.selenium.By;
 import org.openqa.selenium.JavascriptExecutor;
 import org.openqa.selenium.WebDriver;
@@ -33,7 +34,8 @@ public class BasicSeleniumCode {
 		String titleOfThePage = driver.getTitle();
 		System.out.println(titleOfThePage);
 		
-		System.out.println(driver.getPageSource());
+		
+//		System.out.println(driver.getPageSource());
 		
 		WebElement link_jQueryHeader = driver.findElement(By.xpath("//a[@href = 'https://jquery.com/']"));
 		link_jQueryHeader.click();
@@ -63,7 +65,8 @@ public class BasicSeleniumCode {
 			System.out.println("We are on login page");
 		}
 		
-//		Assert.assertEquals(loginText, "Login");
+		
+		Assert.assertEquals(loginText, "Login");
 		
 		System.out.println("Testing is continuing");
 		
@@ -116,6 +119,7 @@ public class BasicSeleniumCode {
 		
 	
 	}
+	
 	public void testMethod() {
 
 		System.setProperty("webdriver.chrome.driver", "C:\\Users\\LENOVO\\git\\VinothiniJavaProject\\drivers\\chromedriver_107.exe");
@@ -154,9 +158,6 @@ public class BasicSeleniumCode {
 		
 		driver.close();
 		
-		
-		
-	
 	}
 
 }
