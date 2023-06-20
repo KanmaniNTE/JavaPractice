@@ -1775,3 +1775,81 @@ Thread.sleep(5000);
 
 *********************************************************
 DAY 30 (06/20/2023)
+
+Property file reading
+
+&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&
+
+Excel file reading 
+
+Apache API
+core, xml, ooml --dependencies
+All the dependencies should be using same version
+
+File Location --> File 
+file name --> FileInputStream
+file extension --> HSSF or XSSF
+
+XSSF.workBook() or HSSF.workBook
+
+which workbook
+which sheet getSheet(index/name); 
+
+which row - Row 
+	column getCellValue();
+	
+&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&
+	
+Excel reading using query
+ fillo api
+
+&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&
+
+* Window Handling
+
+Session ID - its for driver
+Window Handle - its for a window/tab
+
+* each window has a unique id - window handle
+
+getWindowHandle();
+getWindowHandles();
+
+&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&
+
+Alert
+
+A popup in web page can be anything
+	* Alert
+	* Web page or web based window (we can inspect)
+	* OS based window
+	
+	* When alert comes, we cant do anything on the original web page.
+	* Also, we cant inspect the alert
+	
+	
+* Alert needs to be handled
+	* first we need to switch to the alert
+	* use try catch to  check alert is present
+* There are 3 types
+	* Informational alert - OK button alone will present with some text
+		alert.accept();
+		alert.getText();
+	* Yes or No alert
+		alert.accept();
+		alert.dismiss();
+		alert.text();
+	* Text Alert
+		alert.sendKeys("");
+		alert.accept();
+		alert.dismiss();
+		alert.text();
+
+To handle alert 
+
+NoAlertPresentException
+UnHandledAlertException
+
+
+
+

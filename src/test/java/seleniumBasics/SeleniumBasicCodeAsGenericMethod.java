@@ -7,15 +7,19 @@ import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.edge.EdgeDriver;
 import org.openqa.selenium.firefox.FirefoxDriver;
 
+import fileReading.PropertyFileReading;
+
 import org.junit.Assert;
 
 public class SeleniumBasicCodeAsGenericMethod {
 
 	WebDriver driver;
 
-	public static void main(String[] args) {
+	public static void main(String[] args) throws Exception {
 		SeleniumBasicCodeAsGenericMethod obj = new SeleniumBasicCodeAsGenericMethod();
-		obj.launchApplication("Chrome", "https://jqueryui.com/", 10);
+//		obj.launchApplication("Chrome", "https://jqueryui.com/", 10);
+		
+		obj.launchApplicationUsingPropertyUrl("CHrome", 15);
 	}
 
 	public void launchApplication(String browserName, String url, long implicitWaitSeconds) {
@@ -53,6 +57,13 @@ public class SeleniumBasicCodeAsGenericMethod {
 		launchBrowser1(browserName);
 		maximizeBrowser();
 		launchApplicationUrlWithImplicitWait(url, implicitWaitSeconds);
+
+	}
+	
+	public void launchApplicationUsingPropertyUrl(String browserName, long implicitWaitSeconds) throws Exception {
+		launchBrowser1(browserName);
+		maximizeBrowser();
+		launchApplicationUrlWithImplicitWait(PropertyFileReading.readApropertyAndReturnItsValue("url"), implicitWaitSeconds);
 
 	}
 

@@ -13,9 +13,8 @@ public class WindowHandling {
 	static WebDriver driver;
 
 	public static void main(String[] args) throws Exception {
-		System.out.println(System.getProperty("user.dir"));
 		System.setProperty("webdriver.chrome.driver",
-				"C:\\Users\\LENOVO\\git\\SaraswathyJavaProject\\drivers\\chromedriver_109.exe");
+				".\\src\\test\\resources\\drivers\\chromedriver_114.exe");
 		driver = new ChromeDriver();
 
 		System.out.println(((RemoteWebDriver) driver).getSessionId());
@@ -29,6 +28,23 @@ public class WindowHandling {
 		Thread.sleep(5000);
 
 		System.out.println(driver.getTitle());
+		
+		String orangeHRMHomePage = driver.getWindowHandle();
+		System.out.println(orangeHRMHomePage);
+		
+		Set<String> allWindowHandles = driver.getWindowHandles();
+		System.out.println(allWindowHandles);
+		
+		for(String eachWindowHandle: allWindowHandles) {
+			driver.switchTo().window(eachWindowHandle);
+			System.out.println(driver.getTitle());
+			Thread.sleep(5000);
+		}
+		
+	}
+		
+		public void test() {
+		
 
 		String parentWindowHandle = driver.getWindowHandle();
 
