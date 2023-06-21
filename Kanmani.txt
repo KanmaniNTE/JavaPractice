@@ -1850,6 +1850,54 @@ To handle alert
 NoAlertPresentException
 UnHandledAlertException
 
+*****************************************************
+
+DAY 31 (6/21/2023)
+
+
+* frames
+
+	* webpage inside a webpage is called frames
+	* iframe or frame tags are used
+	* nested frames also available
+
+* driver.switchTo().frame(frameIndex/frameName/frameElement);
+* driver.switchTo().defaultContent(); -take you to either first frame or main content
+* driver.switchTo().parentFrame(); - take you to parent frame
+
+&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&
+
+* drop down
+	* element should present in select tag
+	* We can select a drop down using 
+		selectByIndex(0);
+		selectByValue(string);
+		selectByVisibleText(string);
+
+
+discussed about how to write test cases for a page.
+
+&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&
+
+Revisiting actions class and its method
+
+Actions class in selenium
+
+* This class is used to automate mouse and keyboard actions 
+* Mouse actions
+	* left click
+	* right click (context click)
+	* double click
+	* drag and drop
+	* move mouse to hover on an element (mouse hover)
+	* scroll
+	* Keyboard actions 
+	
+* In actions, we combine many actions. 
+* So whenever we use actions, we need to build(combine) and perform();
+
+*********************************************************************************
+
 
 
 

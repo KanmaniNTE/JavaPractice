@@ -14,14 +14,14 @@ public class DropDownPractice {
 
 	public static void main(String[] args) throws Exception {
 		System.setProperty("webdriver.chrome.driver",
-				"C:\\Users\\LENOVO\\git\\SaraswathyJavaProject\\drivers\\chromedriver_109.exe");
+				".\\src\\test\\resources\\drivers\\chromedriver_114.exe");
 		driver = new ChromeDriver();
 		driver.manage().window().maximize();
 		driver.get("https://www.hyrtutorials.com/p/html-dropdown-elements-practice.html");
 		driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(20));
 		
 		WebElement courseDropDown = driver.findElement(By.id("course"));
-		courseDropDown.click();
+//		courseDropDown.click();
 
 		driver.findElement(By.xpath("//option[text() = 'Javascript']")).click();
 
@@ -52,9 +52,43 @@ public class DropDownPractice {
 
 	}
 
-	public void selectByValue(WebElement ele, String value) {
+	public void chooseOptionByValue(WebElement ele, String value) {
 		Select select = new Select(ele);
 		select.selectByValue(value);
+	}
+	
+	public void selectOptionByIndex(WebElement ele, int optionIndex) {
+		Select select = new Select(ele);
+		select.selectByIndex(optionIndex);	
+	}
+	
+	public void selectOptionByVisibleText(WebElement ele, String value) {
+		Select select = new Select(ele);
+		select.selectByVisibleText(value);	
+	}
+	
+	public void printAllOptionFromADropDown(WebElement ele) {
+		Select select = new Select(ele);
+		List<WebElement> courseAllOptions = select.getOptions();
+		for (WebElement each : courseAllOptions) {
+			System.out.println(each.getText());
+		}
+
+	}
+	
+	public void validateAnOptionPresentInDropDown(WebElement ele, String optionName) {
+		Select select = new Select(ele);
+		List<WebElement> courseAllOptions = select.getOptions();
+		for (WebElement each : courseAllOptions) {
+			if(each.getText().equalsIgnoreCase(optionName)) {
+				System.out.println("Given option: "+optionName+ " is present in the drop down");
+			}
+		}
+	}
+	
+	public void deSelectOptionByValue(WebElement ele, String value) {
+		Select select = new Select(ele);
+		select.deselectByValue(value);
 	}
 
 }
