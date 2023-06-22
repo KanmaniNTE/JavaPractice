@@ -5,12 +5,12 @@ import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
 
-import utilities.CommonMethods;
+//import utilities.CommonMethods;
 
 public class CovertingToMethods {
 	
 	static WebDriver driver;
-	CommonMethods commonMethods = new CommonMethods();
+//	CommonMethods commonMethods = new CommonMethods();
 
 	public static void main(String[] args) throws Exception {
 		CovertingToMethods obj = new CovertingToMethods();
