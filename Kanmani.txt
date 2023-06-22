@@ -1897,7 +1897,32 @@ Actions class in selenium
 * So whenever we use actions, we need to build(combine) and perform();
 
 *********************************************************************************
+DAY 32 (6/23/2023)
 
+* Robot (Keyboard + mouse actions + document upload)
+
+https://www.softwaretestinghelp.com/file-upload-in-selenium/
+https://testguild.com/selenium-how-to-handle-windows-based-dialogs-and-pop-ups/
+
+* It is used to automate Mouse and Keyboards 
+* along with this, to automate window based pop ups, we use robot class 
+
+(press, release)
+
+
+&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&
+
+Waits in Selenium 
+
+There are two types...
+	1.ImplicitlyWait
+		* written only once when opening the application.
+		* This one line wait for page to load
+		* This one line is also applicable for all the pages you open in that session.
+	2. Explicit wait
+	3. Fluent wait
+	
+https://www.selenium.dev/documentation/webdriver/waits/
 
 
 

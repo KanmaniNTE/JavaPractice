@@ -1,6 +1,8 @@
 package seleniumBasics;
 
 import java.time.Duration;
+import java.util.ArrayList;
+import java.util.HashMap;
 import java.util.List;
 
 import org.openqa.selenium.By;
@@ -16,7 +18,7 @@ public class WebTablePractice {
 
 	public static void main(String[] args) {
 		System.setProperty("webdriver.chrome.driver",
-				"C:\\Users\\LENOVO\\git\\SaraswathyJavaProject\\drivers\\chromedriver_109.exe");
+				".\\src\\test\\resources\\drivers\\chromedriver_114.exe");
 		driver = new ChromeDriver();
 		driver.manage().window().maximize();
 		driver.get("C:/Users/LENOVO/Desktop/webTable.html");
@@ -28,8 +30,10 @@ public class WebTablePractice {
 		
 		WebTablePractice WTP = new WebTablePractice();
 //		WTP.getAllHeadersFromTable(table);
+//		getAllValuesFromARow(3);
+		getAllRowIncludingHeaderRow(3);
 		
-		validateGivenTextPresentInGivenRow(3, "700");
+//		validateGivenTextPresentInGivenRow(3, "700");
 	}
 	
 	public void test() {
@@ -105,24 +109,40 @@ public class WebTablePractice {
 	}
 
 	public static void getAllRowIncludingHeaderRow(int row) {
+		HashMap<String, String> map = new HashMap<String, String>();
+		String key = null;
+		String value = null;
+		ArrayList<String> headerList = new ArrayList<String>();
+		ArrayList<String> givenRowList = new ArrayList<String>();
 		List<WebElement> rowText = driver.findElements(By.tagName("tr"));
 		int temp = 0;
 		for (WebElement eachRow : rowText) {
-			if (temp == row && temp == 0) {
+			if (temp == 0) {
 				List<WebElement> allHeaders = eachRow.findElements(By.tagName("th"));
 				for (WebElement eachHeader : allHeaders) {
-					System.out.println("All Headers in table are " + eachHeader.getText());
+					System.out.println("Headers in table are " + eachHeader.getText());
+					headerList.add(eachHeader.getText());
 				}
-				break;
+//				break;
 			}
 			if (temp == row) {
 				List<WebElement> allHeaders = eachRow.findElements(By.tagName("td"));
 				for (WebElement eachHeader : allHeaders) {
 					System.out.println(eachHeader.getText());
+					givenRowList.add(eachHeader.getText());
 				}
 			}
 			temp++;
 		}
+		System.out.println(headerList);
+		System.out.println(givenRowList);
+//		map.put(key, value);
+		
+		for(int i =0; i<headerList.size(); i++) {
+			map.put(headerList.get(i), givenRowList.get(i));
+		}
+		
+		System.out.println(map);
 	}
 
 	public static void validateGivenTextPresentInGivenRow(int row, String text) {
