@@ -1897,7 +1897,7 @@ Actions class in selenium
 * So whenever we use actions, we need to build(combine) and perform();
 
 *********************************************************************************
-DAY 32 (6/23/2023)
+DAY 32 (6/22/2023)
 
 * Robot (Keyboard + mouse actions + document upload)
 
@@ -1943,5 +1943,34 @@ questions would be
 	* find given text is present in table
 	* find the respective first column value of the given text
 
+*****************************************************************************
+DAY 33 (6/23/2023)
+
+scrolling
+	* Scroll bar is not a part of web application
+	* So it cant be automated using selenium directly
+	* We can scroll a web page using 
+		* Actions (mouse, keyBoard)
+		* Robot (mouse, keyBoard)
+		* Java script Executor
+			* By using JSE, we can do many actions (Whenever Selenium or Actions class or Robot class methods are not helpful)
+				* click
+				* scroll
+				* send text
+				* scroll until element is visible
+
+scrolling 
+	 JavascriptExecutor js = (JavascriptExecutor)driver;
+	 js.executeScript(“window.scrollBy(0,150)”);
+	 
+	 https://www.guru99.com/execute-javascript-selenium-webdriver.html
+	 
+Screentshot
+
+TakesScreenshot ts = (TakesScreenshot) driver;
+ts..getScreenshotAs(OutputType.FILE);
+File screenshotFile = ((TakesScreenshot) driver).getScreenshotAs(OutputType.FILE);
+ * String screenshotBase64 = ((TakesScreenshot) element).getScreenshotAs(OutputType.BASE64);
+	 
 
 
