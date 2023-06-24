@@ -84,7 +84,7 @@ public class CovertingToMethods {
 	
 	public void launchApplicationUsingProp() throws Exception {
 //		driver.get("facebook.com");
-		driver.get(commonMethods.readAndReturnProperty("facebookURL"));
+//		driver.get(commonMethods.readAndReturnProperty("facebookURL"));
 	}
 	
 	public void loginFacebook1(String userName, String pass) {
