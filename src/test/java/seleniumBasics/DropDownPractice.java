@@ -11,6 +11,7 @@ import org.openqa.selenium.support.ui.Select;
 
 public class DropDownPractice {
 	static WebDriver driver;
+//	RemoteWebDriver;
 
 	public static void main(String[] args) throws Exception {
 		System.setProperty("webdriver.chrome.driver",

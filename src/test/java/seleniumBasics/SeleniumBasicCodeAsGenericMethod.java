@@ -2,14 +2,13 @@ package seleniumBasics;
 
 import java.time.Duration;
 
+import org.junit.Assert;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.edge.EdgeDriver;
 import org.openqa.selenium.firefox.FirefoxDriver;
 
 import fileReading.PropertyFileReading;
-
-import org.junit.Assert;
 
 public class SeleniumBasicCodeAsGenericMethod {
 
