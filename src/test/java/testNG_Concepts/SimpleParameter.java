@@ -1,4 +1,4 @@
-package testNG_Practice;
+package testNG_Concepts;
 
 import org.testng.annotations.Optional;
 import org.testng.annotations.Parameters;

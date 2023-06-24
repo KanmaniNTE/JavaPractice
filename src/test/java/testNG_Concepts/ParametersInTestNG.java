@@ -1,4 +1,4 @@
-package testNG_Practice;
+package testNG_Concepts;
 
 import java.time.Duration;
 import java.util.concurrent.TimeUnit;
