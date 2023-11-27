@@ -1010,7 +1010,7 @@ Scrum time period or Agile time period  (Iteration)
 	- one or two week or 15 days (Mostly its starts on Wednesday and ends with Tuesday)
 	
 an epic serves to manage tasks. It's a defined body of work that is segmented into specific tasks 
-(called “stories,” or “user stories”) based on the needs/requests of customers or end-users
+(called ï¿½stories,ï¿½ or ï¿½user storiesï¿½) based on the needs/requests of customers or end-users
 
 
 PI meeting - 
@@ -1120,9 +1120,40 @@ this or that
 this 
 
 
+-------------------------------
+if(condition), where condition - should return boolean(true or false)
+Conditional operators  
+10 == 20 
+10 != 20
+10 > 20
+10 < 20
+10 <= 20
+10 >= 20
+
+int a = 10;
+int b = 20;
+if(a>b) {
+
+}
+
+public int method1() {
+
+return 10;
+}
+
+if(10 != method1()) {
+
+}
+-----------------------------------------------
+
+
 condition only
 
-multiple condition 
+==
+>
+<
+!=
+
 
 if
 
@@ -1140,17 +1171,29 @@ else if
 else 
 
 
-==
->
-<
-!=
+---------------------------
+
+multiple condition
+
+
 &&
 || 
+
+
+if(condition1 || condition2)
+if(condition1 && condition2)
+if(condition1 && (condition2 || condition3)) 
+
+
+
+
+
 
 
 if(soap available == yes)
 	doing some other work
 	if(soap name == yes)
+	doing some other work
 		if(soap amount is 10 == yes)
 			buy soap
 
@@ -1961,7 +2004,7 @@ scrolling
 
 scrolling 
 	 JavascriptExecutor js = (JavascriptExecutor)driver;
-	 js.executeScript(“window.scrollBy(0,150)”);
+	 js.executeScript(ï¿½window.scrollBy(0,150)ï¿½);
 	 
 	 https://www.guru99.com/execute-javascript-selenium-webdriver.html
 	 
