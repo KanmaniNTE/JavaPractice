@@ -21,6 +21,7 @@ package interfaceInJava;
 //We can create a interface within a interface
 
 public interface LearnInterface {
+	
 
 	int a = 10;
 	public int b = 10;
@@ -36,6 +37,7 @@ public interface LearnInterface {
 //	int f;
 //	public static int g;
 	
+//	int k = 10;
 	final int k = 100;
 	static final int k1 = 100;
 	
@@ -64,7 +66,7 @@ public interface LearnInterface {
 	
 	
 //	WebDriver
-	RemoteWebDriver
+//	RemoteWebDriver
 //	ArrayList
 
 }

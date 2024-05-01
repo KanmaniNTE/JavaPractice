@@ -43,13 +43,25 @@ public class HashMapClass {
 		System.out.println("******* Iterating key and values using foreach loop*****");
 		Map<String, Integer> marks10 = new HashMap<String, Integer>();
 		marks10.putAll(marks);
+		
+		
+		Set<String> keys = marks.keySet();
+		for(String each: keys) {
+			System.out.println(each);
+		}
+		
+		Collection<Integer> values = marks.values();
+		for(Integer each: values) {
+			System.out.println(each);
+		}
+		
 //		for (Map.Entry<String, Integer> entry1 : marks10.entrySet()) {
 //			System.out.println(entry1.getKey());
 //			System.out.println(entry1.getValue());
 //		}	
 		
-		HashMapClass obj = new HashMapClass();
-		obj.mapPractice();
+//		HashMapClass obj = new HashMapClass();
+//		obj.mapPractice();
 
 	}
 
